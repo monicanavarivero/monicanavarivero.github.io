@@ -1,0 +1,355 @@
+
+*{border: 1px solid #110352;}
+
+.imagen0 {
+    width: 1861px;
+    height: 900px; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.imagen1 {
+    width: 127px;
+    height: 124px; 
+    position: absolute;
+    top: 971px;
+    left: 462px;
+}
+
+
+
+.imagen2 {
+    width: 127px;
+    height: 124px; 
+    position: absolute;
+    top: 971px;
+    left: 1270px;
+    
+}
+
+.texto-posicionado1 {
+    width: 288px;
+    height: 75px; 
+    position: absolute;
+    top: 1px;
+    left: 70px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #00BEE5;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 2px #110352;
+    text-stroke: 1px #110352;
+    text-shadow: 8px 8px 16px #110352
+}
+
+.texto-posicionado2 {
+    width: 806px;
+    height: 210px; 
+    position: absolute;
+    top: 301px;
+    left: 271px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.texto-posicionado3 {
+    width: 146px;
+    height: 21px; 
+    position: absolute;
+    top: 65px;
+    left: 1087px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-posicionado4 {
+    width: 628px;
+    height: 63px; 
+    position: absolute;
+    top: 950px;
+    left: 620px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #110352;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 1px #00BEE5;
+    text-stroke: 1px #00BEE5;
+    text-shadow: 8px 8px 16px #00BEE5;
+    
+   
+}
+
+.texto-posicionado5 {
+    width: 384px;
+    height: 52px; 
+    position: absolute;
+    top: 1050px;
+    left: 747px;
+    font-size: 22px;
+    font-weight: 100;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.texto-posicionado6 {
+    width: 1066px;
+    height: 398px; 
+    position: absolute;
+    top: 1194px;
+    left: 398px;
+    font-size: 35px;
+    font-weight: 100;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   
+    
+}
+
+.text-box6 {
+    border: 0px solid #110352; 
+    border-radius: 0px;       
+    padding: 5px;             
+    background-color: #110352; 
+    width: 1862px;
+    height: 158px;
+    position: absolute;
+    top: 2200px;
+    left: 0px;  
+    overflow: hidden; 
+    box-sizing: border-box;
+    position: relative; 
+} 
+
+.text-box6 .text1{
+    width: 154px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 147px;
+    font-size: 31px;
+    font-weight: bold;
+    color:#00BEE5;
+    font-family:'Orbitron', sans-serif;
+    
+}
+
+.text-box6 .text2{
+    width: 300px;
+    height: 42px;
+    position: absolute;
+    top: 65px;
+    left: 147px;
+    font-size: 18px;
+    font-weight: 200;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+   
+}
+
+.text-box6 .text3{
+    width: 383px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 431px;
+    font-size: 18px;
+    font-weight: 200;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.text-box6 .text4{
+    width: 383px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 630px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00BEE5;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.text-box6 .text5{
+    width: 383px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 545px;
+    font-size: 18px;
+    font-weight: 200;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.text-box6 .text6{
+    width: 383px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.text-box6 .text7{
+    width: 323px;
+    height: 21px;
+    position: absolute;
+    top: 40px;
+    left: 1050px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.text-box6 .text8{
+    width: 323px;
+    height: 21px;
+    position: absolute;
+    top: 70px;
+    left: 1050px;
+    font-size: 18px;
+    font-weight: 200;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+}
+    
+
+.text-box6 .text9{
+    width: 323px;
+    height: 21px;
+    position: absolute;
+    top: 70px;
+    left: 1230px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#00BEE5;
+    font-family:'Roboto', sans-serif;
+   
+}
+
+.text-box6 .imagen50{
+    width: 83px;
+    height: 61px;
+    position: absolute;
+    top: 28px;
+    left: 43px;
+}
+
+.text-box6 .imagen51{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 70px;
+    left: 1655px;
+}
+
+.text-box6 .imagen52{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 70px;
+    left: 1709px;
+}
+
+.text-box6 .imagen53{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 70px;
+    left: 1762px;
+}
+
+
+   
+
+.boton {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    border: 3px solid transparent; 
+    border-radius: 50px;
+    font-weight: lighter;
+    padding: 7px 3px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1s ease, border-color 1s ease;
+    color: #30FEFE;
+    
+}
+
+
+.boton-nosotros {
+    top: 80px;
+    left: 1252px;
+    width: 118px;
+    background-color:#110352;
+    border-color: #00BEE5;
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #00BEE5
+    font-weight: lighter;
+}
+
+.boton-comofunciona {
+    top: 80px;
+    left: 1384px;
+    width: 118px;
+    background-color: #110352;
+    border-color: #30FEFE;
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #30FEFE;
+    font-weight: normal;
+}
+
+.boton-contactanos {
+    top: 80px;
+    left: 1516px;
+    width: 118px;
+    background-color: #110352;
+    border-color: #30FEFE;
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #30FEFE;
+    font-weight: normal;
+}
+
+.boton-ourcoach {
+    top: 80px;
+    left: 1648px;
+    width: 118px;
+    color: #110352;
+    background-color: transparent;
+    border-color: #110352;
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #110352;
+    font-weight: normal;
+}
+
+.boton:hover {
+    background-color: #00677C;
+    border-color: #30FEFE;
+}
+
+
+    
