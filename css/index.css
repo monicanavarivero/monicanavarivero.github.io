@@ -173,7 +173,7 @@ body {
 }
 
 /* Media Queries para Responsividad */
-@media (max-width: 1024px) and (max-width: 1199px) {
+@media (max-width: 1024px)  {
     .div1, .div2 {
         position: static;
         text-align: center;
@@ -195,6 +195,38 @@ body {
 
     .imagen1 {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Estilos específicos para laptops */
+    .texto-posicionado1 {
+        font-size: 2rem; /* Ajusta el tamaño de la fuente para laptops */
+    }
+
+    .texto-posicionado2 {
+        font-size: 0.8rem; /* Ajusta el tamaño de la fuente para laptops */
+    }
+
+    .texto-posicionado3 {
+        font-size: 4rem; /* Ajusta el tamaño de la fuente para laptops */
+    }
+
+    .texto-posicionado4 {
+        font-size: 4rem; /* Ajusta el tamaño de la fuente para laptops */
+    }
+
+    .texto-posicionado5 {
+        font-size: 1.2rem; /* Ajusta el tamaño de la fuente para laptops */
+    }
+
+    .boton {
+        font-size: 0.6rem; /* Ajusta el tamaño de la fuente para laptops */
+        padding: 4px 35px;
+    }
+
+    .imagen1 {
+        width: 20vw; /* Ajusta el tamaño de la imagen para laptops */
     }
 }
 
