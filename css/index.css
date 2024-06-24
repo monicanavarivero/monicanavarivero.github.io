@@ -173,7 +173,7 @@ body {
 }
 
 /* Media Queries para Responsividad */
-@media (max-width: 768px) {
+@media (max-width: 1024px) and (max-width: 1199px) {
     .div1, .div2 {
         position: static;
         text-align: center;
@@ -254,3 +254,4 @@ body {
         left: 30vw;
         
     }
+}
