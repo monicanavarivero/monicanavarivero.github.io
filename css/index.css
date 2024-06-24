@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 /* Fuente básica */
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,21 +29,20 @@ body {
     margin-top:0px;
 }
 
-
 /* Estilos para div1 */
 .div1 {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 2px;
+    left: 2px;
     color: white;
 }
 
 .texto-posicionado1 {
     width: 15.47%;
-    height: 2.31%;
+    height: 1.31%;
     position: absolute;
-    top: -18%;
-    left: 3.76%;
+    top: .5vh; /* Ajuste a unidades responsivas */
+    left: 3vw; /* Ajuste a unidades responsivas */
     font-size: 3rem;
     font-weight: bold;
     color: #00BEE5;
@@ -55,40 +53,40 @@ body {
 }
 
 .texto-posicionado2 {
-    width: 200%;
-    height: 0.65%; 
+    width: 60vw; /* Ajuste de ancho */
+    height: auto;
     position: absolute;
-    top: 2.05%;
-    left: 800.51%;
+    top: 6vh; /* Ajuste a unidades responsivas */
+    left: 45vw; /* Ajuste a unidades responsivas */
     font-size: 1rem;
     font-weight: normal;
     color: #110352;
     font-family: 'Roboto', sans-serif;
 }
 
-.contenedor-botones{
-    position:relative;
+.contenedor-botones {
+    position: relative;
     width: 100%;
-    height:20%;
-}
-.boton {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2%;
-    border: 0.3% solid transparent; 
-    border-radius: 5%;
-    font-weight: lighter;
-    padding: 0.5% 2%;
-    text-align:center;
-    text-decoration: none;
-    transition: background-color 1s ease, border-color 1s ease;
-    color: #30FEFE;
-    background-color: #110352;
-    border-color:#30FEFE;
-    width:10%;
-   
+    height: 200px;
 }
 
+.boton {
+    padding: 5px 40px;
+    background-color: #110352;
+    color: #00BEE5;
+    font-size: .7rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border: 1% solid#30FEFE; 
+    border-radius: 50px;
+    text-align: center;
+    transition: background-color 1s ease, border-color 1s ease;
+    position: absolute;
+    white-space:nowrap;
+    width: 50px;
+    display:flex;
+    justify-content: center;
+}
 
 .boton:hover {
     background-color: #00677C;
@@ -96,82 +94,83 @@ body {
 }
 
 .boton-nosotros {
-    position: absolute;
-    top: 10%;
-   left: 10%;
+    top: 25%;
+    left: 57vw; /* Ajuste a unidades responsivas */
 }
 
 .boton-comofunciona {
-    position: absolute;
-    top: 10%;
-    left: 25%;
+    top: 25%;
+    left: 67vw; /* Ajuste a unidades responsivas */
+   
 }
 
 .boton-contactanos {
-    top: 10%;
-    left: 40%;
+    top: 25%;
+    left: 77vw; /* Ajuste a unidades responsivas */
 }
 
 .boton-ourcoach {
-    top: 10%;
-    left: 55%;
+    top: 25%;
+    left: 87vw; /* Ajuste a unidades responsivas */
 }
-
-
 
 /* Estilos para div2 */
 .div2 {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 2px;
+    left: 2px;
     color: white;
-    text-align: right;
+    
 }
 
 .texto-posicionado3 {
-    font-size: 2rem;
+    width: 100vw;
+    height: 7.22%; 
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
 }
 
+
 .texto-posicionado4 {
-    font-size: 1.5rem;
+    width: 100vw;
+    height: 7.22%; 
+    position: absolute;
+    top: 33.3vh;
+    left: 20vw;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #00677C,#00BEE5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #00BEE5;
 }
 
 .texto-posicionado5 {
-    font-size: 1rem;
+    width: 100vw;
+    height: 5%; 
+    position: absolute;
+    top: 65vh;
+    left: 10vw;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
 }
 
 .imagen1 {
-    width: 100%;
-    max-width: 300px;
+    width: 17vw;
     height: auto;
-    margin-top: 10px;
+    position: absolute;
+    top: 50vh;
+    left: 75vw;
+    
 }
-
-
-@media (max-width: 1024px) {
-    .boton {
-        font-size: 1.5%;
-        width: 15%;
-        padding: 1% 2%;
-    }
-    .boton-nosotros {
-        top: 20%;
-        left: 10%;
-    }
-    .boton-comofunciona {
-        top: 20%;
-        left: 30%;
-    }
-    .boton-contactanos {
-        top: 20%;
-        left: 50%;
-    }
-    .boton-ourcoach {
-        top: 20%;
-        left: 70%;
-    }
-}
-
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
@@ -180,6 +179,8 @@ body {
         text-align: center;
         padding: 20px;
     }
+
+    
 
     .contenedor-botones {
         display: flex;
@@ -192,28 +193,44 @@ body {
         max-width: 200px;
     }
 
-
     .imagen1 {
         max-width: 100%;
     }
 }
 
 @media (max-width: 480px) {
-
-    .texto-posicionado1, .texto-posicionado3 {
-        top: .5%;
-        left: 8%;
+    .texto-posicionado1 {
+        top: 1%;
+        left: 5%;
         font-size: 1.5rem;
     }
 
-    .texto-posicionado2, .texto-posicionado4 {
-        top: 2%;
-        left: -20%;
-        font-size: .5rem;
+    .texto-posicionado3 {
+        top: 10%;
+        left: 1%;
+        font-size: 3rem;
+        text-align: center;
     }
 
-    .texto-posicionado5 {
+    .texto-posicionado2{
+        top: 2%;
+        left: 40%;
         font-size: 0.9rem;
+    }
+
+    .texto-posicionado4 {
+        top: 25%;
+        left: 1%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+    .texto-posicionado5 {
+        top: 60%;
+        left: 1%;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .boton {
@@ -221,16 +238,19 @@ body {
         padding: 10px;
     }
 
-    .imagen0{
+    .imagen0 {
         display: none;
     }
 
-    .imagen-mobile{
-        display:block;
+    .imagen-mobile {
+        display: block;
     }
-}
 
-
-
-
-
+    .imagen1 {
+        width: 40vw;
+        height: auto;
+        position: absolute;
+        top: 60vh;
+        left: 30vw;
+        
+    }
