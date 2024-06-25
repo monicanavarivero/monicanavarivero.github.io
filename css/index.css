@@ -172,7 +172,7 @@ body {
     
 }
 
-/* Media Queries para Responsividad */
+
 @media (max-width: 1024px)  {
     .div1, .div2 {
         position: static;
@@ -199,34 +199,34 @@ body {
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-    /* Estilos específicos para laptops */
+    
     .texto-posicionado1 {
-        font-size: 2rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 2rem; 
     }
 
     .texto-posicionado2 {
-        font-size: 0.8rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 0.8rem; 
     }
 
     .texto-posicionado3 {
-        font-size: 4rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 4rem; 
     }
 
     .texto-posicionado4 {
-        font-size: 4rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 4rem; 
     }
 
     .texto-posicionado5 {
-        font-size: 1.2rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 1.2rem; 
     }
 
     .boton {
-        font-size: 0.6rem; /* Ajusta el tamaño de la fuente para laptops */
+        font-size: 0.6rem; 
         padding: 4px 35px;
     }
 
     .imagen1 {
-        width: 20vw; /* Ajusta el tamaño de la imagen para laptops */
+        width: 20vw; 
     }
 }
 
