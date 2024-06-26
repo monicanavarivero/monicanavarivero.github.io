@@ -114,6 +114,121 @@ body {
     left: 87vw; /* Ajuste a unidades responsivas */
 }
 
+
+
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #D6E793;
+    transition: left 0.3s;
+    z-index: 101; 
+    
+  }
+
+  #toggleButton {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    background-color:transparent;
+    color: #000000;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 10px;
+    z-index: 102; 
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 100; 
+    display: none; 
+  }
+
+  
+  .overlay.active {
+    display: block;
+  }
+
+
+  .menu-images {
+    padding: 0px;
+  }
+
+  .menu-images img {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .image1 {
+    width: 100%;
+    top: 0px; 
+    left: 0px; 
+  }
+
+  .menu-text{
+  position: absolute;
+  top: 125px;
+  left: 30px;
+  font-size: 17px;
+  color:#000000;
+  font-weight: bold;
+  
+  }
+
+  .menu-text1{
+    position: absolute;
+    top: 144px;
+    left: 70px;
+    font-size: 17px;
+    color:#000000;
+    font-weight: bold;
+    
+    }
+
+
+  #menuItems {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 13px;
+    color:#000000;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #menuItems li {
+    padding: 10px;
+    color: #000000;
+  }
+
+  #menuItems li a {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    text-decoration: none
+  }
+
+
+
+
+
 /* Estilos para div2 */
 .div2 {
     position: absolute;
@@ -173,6 +288,44 @@ body {
 }
 
 
+.div3 {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: white;
+    
+}
+
+
+.texto-posicionado6 {
+    width: 50vw;
+    height: 3.49%; 
+    position: absolute;
+    top: 100vh;
+    left: 29vw;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #110352;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 0.05% #00BEE5;
+    text-stroke: 0.05% #00BEE5;
+    text-shadow: 0.43% 0.43% 0.79% #00BEE5;
+}
+
+.texto-posicionado7 {
+    width: 80vw;
+    height: 3.21%; 
+    position: absolute;
+    top: 120vh;
+    left: 10vw;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #110352;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;  
+}
+
+/* Media Queries para Responsividad */
 @media (max-width: 1024px)  {
     .div1, .div2 {
         position: static;
@@ -251,7 +404,7 @@ body {
     }
 
     .texto-posicionado4 {
-        top: 25%;
+        top: 28%;
         left: 1%;
         font-size: 3rem;
         text-align: center;
@@ -259,16 +412,30 @@ body {
 
 
     .texto-posicionado5 {
-        top: 60%;
+        top: 70%;
         left: 1%;
         font-size: 1.2rem;
         text-align: center;
     }
 
-    .boton {
-        max-width: 100%;
-        padding: 10px;
+    .texto-posicionado6 {
+        top: 103vh;
+        left: 25vw;
+        font-size: 2rem;
+        text-align: center;
     }
+
+    .texto-posicionado7 {
+        top: 116vh;
+        left: 11vw;
+        font-size: .5rem;
+        text-align: center;
+    }
+
+    .contenedor-botones {
+        display: none; /* Ocultar los botones normales en móvil */
+      }
+    
 
     .imagen0 {
         display: none;
@@ -282,7 +449,7 @@ body {
         width: 40vw;
         height: auto;
         position: absolute;
-        top: 60vh;
+        top: 50vh;
         left: 30vw;
         
     }
