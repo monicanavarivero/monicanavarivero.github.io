@@ -448,7 +448,7 @@ body {
     .imagen1 {
         width: 40vw;
         height: auto;
-        position: static;
+        position: fixed;
         top: 50vh;
         left: 30vw;
         
