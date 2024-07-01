@@ -328,7 +328,7 @@ body {
 /* Media Queries para Responsividad */
 @media (max-width: 1024px)  {
     .div1, .div2 {
-        position: static;
+        position:relative;
         text-align: center;
         padding: 20px;
     }
